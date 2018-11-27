@@ -23,6 +23,6 @@ public class BdiSbApplication {
 		ssfb.setDataSource(dataSource);
 		Resource[] res = new PathMatchingResourcePatternResolver().getResources("classpath:mapper/*.xml");
 		ssfb.setMapperLocations(res);
-		return ssfb.getObject();
+		return ssfb.getObject(); 
 	}
 }
